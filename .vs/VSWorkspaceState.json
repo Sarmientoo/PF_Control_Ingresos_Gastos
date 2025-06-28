@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Application",
+    "\\ExpensesTracker.api",
+    "\\ExpensesTracker.api\\Properties"
   ],
+  "SelectedNode": "\\ExpensesTracker.api\\Properties\\launchSettings.json",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100vh; /* Cambié de 100% a 100vh para altura completa de viewport */
+  width: 100vw;  /* Agregué ancho completo de viewport */
+  margin: 0;
+  padding: 0;
+  /* Removí el background-color fijo para permitir que cada componente maneje su fondo */
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #1f2937;
+  overflow-x: hidden; /* Evita scroll horizontal innecesario */
+}
+
+/* Eliminar estilos heredados innecesarios */
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #3b82f6;
+  text-decoration: none;
+}
+a:hover {
+  color: #2563eb;
+}
+
+button {
+  @apply rounded-md px-4 py-2 font-medium;
+}
